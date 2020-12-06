@@ -1,0 +1,99 @@
+
+.contactform {
+  position: relative;
+  top:10px;
+  padding-top: 20px;
+  background: #A7A2C6;
+  border-radius: 30px;
+  padding-bottom: 10px;
+}
+
+.contactme {
+  font-size: 40px;
+  text-align: center;
+  font-family: Lucida Console;
+}
+
+.contactinfo {
+  position: relative;
+  font-size: 20px;
+  left: 30px;
+    font-family: Lucida Console;
+}
+
+#catch {
+  position: relative;
+  left: 20px;
+  font-family: Lucida Console;
+}
+
+.form {
+  position: relative;
+  left: 20px;
+}
+
+input[type=text] {
+  width: 30%;
+  position: relative;
+  left: 20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 30%;
+    position: relative;
+  left: 20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea[id=message] {
+  width: 30%;
+    position: relative;
+  left: 20px;
+   padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  width: 20%;
+  position: relative;
+  left: 20px;
+  background-color: #4E4B66;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #312B5F;
+}
+
+#social {
+  text-align: center;
+  font-family: Lucida Console;
+}
+
+#social a {
+  color: black;
+   transition: all 0.3s ease;
+}
+
+#social a:hover {
+  color: #312B5F;
+}

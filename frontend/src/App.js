@@ -33,7 +33,7 @@ import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AboutUs from './components/pages/AboutUs';
 import Products from './components/pages/Products';
-import ContactUS from './components/pages/ContactUs';
+import ContactUs from './components/pages/ContactUs';
 
 function App() {
   return (
@@ -44,7 +44,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/about-us' component={AboutUs} />
           <Route path='/products' component={Products} />
-          <Route path='/contact-us' component={ContactUS} />
+          <Route path='/contact-us' component={ContactUs} />
         </Switch>
       </Router>
     </>
