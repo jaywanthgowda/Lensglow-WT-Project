@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import ReactDOM  from 'react-dom';
 import '../../App.css';
 import './contact-us.css';
-import Footer from '../Footer';
 import axios from 'axios';
 
 
@@ -74,7 +72,6 @@ class ContactUs extends Component {
             </p>
             </form>
             </div>
-            <Footer />
         </>
     )
   }

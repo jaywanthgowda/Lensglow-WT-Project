@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -32,21 +31,21 @@ function Footer() {
           </div>
           <small class='website-rights'>Lensglow © 2020</small>
           <div class='social-icons'>
-            <a href='https://www.facebook.com' target='_blank' >
+            <a href='https://www.facebook.com' target='_blank' rel='noreferrer'>
               <i class='fab fa-facebook-f' />
             </a>
 
-            <a href='https://www.instagram.com' target='_blank' >
+            <a href='https://www.instagram.com' target='_blank' rel='noreferrer'>
               <i class='fab fa-instagram' />
             </a>
 
-            <a href='https://www.youtube.com' target='_blank' >
+            <a href='https://www.youtube.com' target='_blank' rel='noreferrer'>
               <i class='fab fa-youtube' />
             </a>
-            <a href='https://www.twitter.com' target='_blank' >
+            <a href='https://www.twitter.com' target='_blank' rel='noreferrer'>
               <i class='fab fa-twitter' />
             </a>
-            <a href='https://www.linkedin.com/' target='_blank' >
+            <a href='https://www.linkedin.com/' target='_blank' rel='noreferrer'>
               <i class='fab fa-linkedin' />
             </a>
           </div>
