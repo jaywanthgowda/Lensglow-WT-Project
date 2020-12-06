@@ -1,5 +1,5 @@
 const express = require('express');
-const path = require('path');
+//const path = require('path');
 const bodyParser = require('body-parser');
 const MongoClient = require('mongodb').MongoClient
 const cors = require('cors')
@@ -42,7 +42,6 @@ app.post('/add',(req,res)=>{
             console.log(e);
         }
         client.close();
-        res.redirect('')
     })
 });
 

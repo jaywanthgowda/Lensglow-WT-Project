@@ -27,7 +27,7 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               Lensglow
-              <i className='fas fa-glasses navbar-logo' />
+              <i className='fas fa-glasses' />
             </Link>
           </div>
           <small class='website-rights'>Lensglow © 2020</small>

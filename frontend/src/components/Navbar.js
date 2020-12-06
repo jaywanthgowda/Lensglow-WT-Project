@@ -30,8 +30,9 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             LensGlow
+            <i className='fas fa-glasses' />
           </Link>
-          <i className='fas fa-glasses navbar-logo' />
+          
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../App.css';
+import './home.css'
 import Slider from 'react-slick';
 import Footer from '../Footer';
 
@@ -78,11 +79,14 @@ class Home extends Component{
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
       arrows: true,
       slidesToScroll: 1,
       className: "slides"
 }
   return (
+    <>
     <div className="Home">
     <Slider {...settings}>
     {
@@ -102,6 +106,8 @@ class Home extends Component{
 	A one-stop online solution for purchasing eyewear and its accessories, LensGlow delivers them right at your doorstep with convenient methods of payment. Sunglasses as well as eyeglasses are available for men and women in a diverse array of styles and trendy colours. If you want to try out contact lenses, pick the ones of your choice from the extensive variety of coloured contact lenses from our online store. 
     </p>
     </div>
+    <Footer />
+    </>
   );
 }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM  from 'react-dom';
 import '../../App.css';
 import './contact-us.css';
 import Footer from '../Footer';
@@ -43,6 +44,8 @@ class ContactUs extends Component {
       .catch(err => {
         console.error(err);
       });
+
+    alert('Thank You!')
   }
 
   render() {
@@ -65,7 +68,7 @@ class ContactUs extends Component {
               <textarea id="message" name="message" placeholder="Message..." rows={5} cols={30} defaultValue={""} onChange={this.handleInputChange}/>
             </p>
             <p className='pform'>
-              <button className="submit" type="submit">
+              <button className="submit" type="submit"> 
               <i className="fa fa-paper-plane" /> SEND
               </button>
             </p>
