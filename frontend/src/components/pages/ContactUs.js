@@ -43,7 +43,7 @@ class ContactUs extends Component {
         console.error(err);
       });
 
-    alert('Thank You!')
+    alert('Thank You for your Response. We will get back to you soon.')
   }
 
   render() {

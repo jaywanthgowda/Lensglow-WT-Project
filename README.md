@@ -9,3 +9,7 @@ Team Members:
 
 Execution instructions:
 Change directory to frontend and execute npm run server.
+
+Modules and dependencies required:
+In Backend: express,cors,body-parser.
+In Frontend: react,react-dom,react-router-dom,react-scripts,react-slick,axios,concurrently.
