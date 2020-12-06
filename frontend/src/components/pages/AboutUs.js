@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import Footer from '../Footer';
 import './aboutus.css';
 
 
@@ -19,6 +20,7 @@ import './aboutus.css';
 
 function AboutUs() {
     return (
+        <>
         <div className="App">
       <section id="about">
         <div className="about">
@@ -38,6 +40,8 @@ function AboutUs() {
         </div>
       </section>
     </div>
+    <Footer />
+    </>
     )
 }
 

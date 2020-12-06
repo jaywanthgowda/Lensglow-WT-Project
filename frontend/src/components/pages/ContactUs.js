@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import '../../App.css';
 import './contact-us.css';
+import Footer from '../Footer';
 import axios from 'axios';
+
 
 class ContactUs extends Component {
   constructor(props){
@@ -14,6 +16,8 @@ class ContactUs extends Component {
       message:''
     };
   }
+
+  
 
   handleInputChange = (e) => {
     this.setState({
@@ -43,27 +47,31 @@ class ContactUs extends Component {
 
   render() {
     return (
-        <>
+        <>  
+          <div className='form-container'>
+            
+            <form onSubmit={this.handleSubmit} className="form">
             <h1>Contact Us Page</h1>
-            <form onSubmit={this.handleSubmit}>
-            <p>
+            <p className='pform'>
               <input type="text" required name="name" placeholder="Your Name..." id="name" onChange={this.handleInputChange}/>
             </p>
-            <p>
+            <p className='pform'>
               <input type="email" required name="email" placeholder="Email..." id="email" onChange={this.handleInputChange}/>
             </p>
-            <p>
+            <p className='pform'>
               <input type="text" required name="subject" placeholder="Subject..." id="subject" onChange={this.handleInputChange}/>
             </p>
-            <p>
+            <p className='pform'>
               <textarea id="message" name="message" placeholder="Message..." rows={5} cols={30} defaultValue={""} onChange={this.handleInputChange}/>
             </p>
-            <p>
+            <p className='pform'>
               <button className="submit" type="submit">
               <i className="fa fa-paper-plane" /> SEND
               </button>
             </p>
             </form>
+            </div>
+            <Footer />
         </>
     )
   }
