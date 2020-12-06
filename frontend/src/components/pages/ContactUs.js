@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import 
 import '../../App.css';
 import './contact-us.css';
 import axios from 'axios';
@@ -15,11 +14,6 @@ class ContactUs extends Component {
       message:''
     };
   }
-
-  /*
-  complete= ()=>{
-    alert('Thank You for filling up. We will get back to you shortly.')
-  }*/
 
   handleInputChange = (e) => {
     this.setState({
@@ -45,7 +39,6 @@ class ContactUs extends Component {
       .catch(err => {
         console.error(err);
       });
-
   }
 
   render() {
